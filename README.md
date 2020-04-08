@@ -10,7 +10,7 @@ DLINVEMI_1D_Predictions: this code applies the trained CNN network on the EMI da
 
 ## Reference
 
-Moghadas, D., 2020, One-dimensional deep learning inversion of electromagnetic induction data using convolutional neural networks, Geophysical journal international.
+Moghadas, D., 2020, One-dimensional deep learning inversion of electromagnetic induction data using convolutional neural network, Geophysical journal international, DOI: 10.1093/gji/ggaa161
 
 ## License
 
