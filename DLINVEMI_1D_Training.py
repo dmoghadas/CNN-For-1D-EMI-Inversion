@@ -1,7 +1,7 @@
 ### DLINVEMI_1D_Training: program to train 1D CNN for EMI inversion
 ### Written by Davood Moghadas
 ### Brandenburg University of Technology (BTU), Cottbus-Senftenberg
-### Version: 23.09.2019
+### Version: 05.09.2020
 ###
 ### libraries
 import numpy as np
