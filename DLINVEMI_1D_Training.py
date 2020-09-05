@@ -57,8 +57,8 @@ output_train, output_val, output_test = data_split_seq(output,output.shape[0],70
 ## data normalization
 scaler_in = MinMaxScaler(feature_range=(0, 1))
 scaler_out = MinMaxScaler(feature_range=(0, 1))
-scaler_in = scaler_in.fit(input)
-scaler_out = scaler_out.fit(output)
+scaler_in = scaler_in.fit(input_train)
+scaler_out = scaler_out.fit(output_train)
 
 input_train_norm = scaler_in.transform(input_train)
 input_val_norm = scaler_in.transform(input_val)
